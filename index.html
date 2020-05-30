@@ -1,0 +1,209 @@
+<html>
+<head>
+  <title>Bubble Burst</title>
+  <style>
+  /*.cab{
+    border: 0px solid green;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    z-index: 10;
+    background-color: #4285f4;
+  }*/
+  @font-face {
+  font-family: basicbold;
+  src: url(basicsanssfbold.ttf);
+}
+@font-face {
+font-family: basicitalic;
+src: url(basicsanssfitalic.ttf);
+}
+@font-face {
+font-family: basic;
+src: url(basicsanssf.ttf);
+}
+  .tota{
+    border: 0px solid red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .esq{
+    border: 0px solid green;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    /*background-color: white;*/
+    text-align: center;
+    color: #4285f4;
+  font-family: basicbold;
+  vertical-align: middle;
+
+  }
+  .titesq{
+    border: 0px solid red;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 50%;
+    margin-top: -20%;
+  }
+  .umesq{
+    font-size: 60px;
+    border: 0px solid green;
+  }
+  .doisesq{
+    font-size: 20px;
+    border: 0px solid green;
+    font-family: basicitalic;
+    position: relative;
+    top: -5px;
+  }
+  .tresesq{
+    font-size: 20px;
+    border: 0px solid green;
+    font-family: basic;
+    position: relative;
+    top: 60px;
+    font-size: 18px;
+  }
+  .quaesq{
+    font-size: 20px;
+    border: 0px solid green;
+    font-family: basic;
+    position: relative;
+    top: 130px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+  }
+  .dir{
+    border: 0px solid blue;
+    right: 0px;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    background-color: #4285f4;
+    text-align: center;
+    color: white;
+  font-family: basicbold;
+  }
+  .logo{
+    position: fixed;
+    top: 10px;
+    /*bottom: 10px;*/
+    left: 10px;
+  }
+  .menu{
+    position: fixed;
+    top: 20px;
+    border: 0px solid red;
+    height: 20px;
+    width: 300px;
+    /*bottom: 10px;*/
+    right: 20px;
+    z-index: 10;
+    font-family: basicbold;
+    color: white;
+    text-align: right;
+  }
+  </style>
+
+  <script language="javascript" type="text/javascript">
+       function mouseOverImage() {
+           document.getElementById("ImageButton1").src = "aderirrol.png";
+       }
+
+       function mouseOutImage() {
+           document.getElementById("ImageButton1").src = "aderir.png";
+       }
+   </script>
+
+</head>
+<body>
+<!--  <section class="cab">
+    cabecalho
+  </section>-->
+  <section class="logo">
+    <img src="logo.png" alt="app store" width="auto" height="50px">
+  </section>
+  <section class="menu">
+    Home Acerca
+  </section>
+<section class="tota">
+  <section class="esq">
+    <section class="titesq">
+      <section class="umesq">
+        Bubble Burst
+      </section>
+        <section class="doisesq">
+          Free
+        </section>
+          <section class="tresesq">
+            Junta-te a Familia!<br>
+            Passa o teu tempo livre em diversao!<br>
+            Junta-te a Fam e aproveita o tempo!
+          </section>
+            <section class="quaesq">
+              <img src="appstore2.png" alt="app store" width="auto" height="40px">
+              asd
+                <img src="android.png" alt="google store" width="auto" height="40px">
+            </section>
+    </section>
+  </section>
+  <section class="dir">
+    <section class="titesq">
+      <section class="umesq">
+        Bubble Burst
+      </section>
+        <section class="doisesq">
+          Premium
+        </section>
+        <section class="tresesq">
+            Adere ao Premium e diverte-te ao dobro!<br>
+          Com o Premium podes navegar sem limites!<br>
+          Aqui nao tens publicacoes limitadas!
+        </section>
+          <section class="quaesq">
+            <a href="aderir.html">
+            <img src="aderir.png" alt="app store" width="auto" height="40px"  onmouseover="mouseOverImage()"  onmouseout="mouseOutImage()" ID="ImageButton1">
+          </a>
+          <!--  asd
+              <img src="android.png" alt="app store" width="auto" height="40px">-->
+          </section>
+    </section>
+  </section>
+</sectiton>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
